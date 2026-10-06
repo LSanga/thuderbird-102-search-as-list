@@ -1,0 +1,21 @@
+[
+  {
+    "namespace": "searchAsList",
+    "functions": [
+      {
+        "name": "enable",
+        "type": "function",
+        "async": true,
+        "description": "Start redirecting global search (faceted) tabs to message list tabs in all current and future 3-pane windows.",
+        "parameters": []
+      },
+      {
+        "name": "disable",
+        "type": "function",
+        "async": true,
+        "description": "Stop redirecting and restore the default faceted view.",
+        "parameters": []
+      }
+    ]
+  }
+]
